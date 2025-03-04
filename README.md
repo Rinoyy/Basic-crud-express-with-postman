@@ -18,6 +18,7 @@ Crud dasar pada kali ini saya membuat ini menggunakan express.js dengan framewor
 | 3   | Delete  | Delete |
 | 4   | update  | post   |
 
+![Logo](https://pbs.twimg.com/profile_images/876811570201755648/2DDnZDi7_400x400.jpg)
 ##
 
 1. Clone repositori:
