@@ -9,7 +9,7 @@ Crud dasar pada kali ini saya membuat ini menggunakan express.js dengan framewor
 
 ## Method functions
 
-Method pada fungsi:
+**Method pada fungsi:**
 
 | No  | Fungsi  | method |
 | --- | ------- | ------ |
