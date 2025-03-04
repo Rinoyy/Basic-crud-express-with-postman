@@ -1,6 +1,24 @@
-# Crud dasar dengan express.js
-Crud express dengan js ini mampu melakukan fungsi crud sederhana create, read, update dan delete.  Kode crud ini juga sudah mampu melakukan validasi secara keseluruhan.
+# CRUD express.js dasar full validasi
 
-## Cara Menggunakan
-1. Clone repositori: 
-2. Instal 
+Crud dasar pada kali ini saya membuat ini menggunakan express.js dengan framework node.js, program sederhana ini terdiri dari create, read, update dan delete yang tentunnya sudah terdapat full validasi.
+
+## Author
+
+👤 **Rino sitanggang**  
+[GitHub Profile](https://github.com/username/Rinoyy)
+
+## Method functions
+
+Method pada fungsi:
+
+| No  | Fungsi  | method |
+| --- | ------- | ------ |
+| 1   | GetData | GET    |
+| 2   | Show    | Get    |
+| 3   | Delete  | Delete |
+| 4   | update  | post   |
+
+##
+
+1. Clone repositori:
+2. Instal
