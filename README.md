@@ -10,12 +10,13 @@ of cource use validation form express namely express validator.
 
 ## Method functions
 **Method pada fungsi:**
-| No  | Fungsi  | method |
-| --- | ------- | ------ |
-| 1   | GetData | GET    |
-| 2   | Show    | Get    |
-| 3   | Delete  | Delete |
-| 4   | update  | post   |
+| No  | Fungsi  | method |           url                      |
+| --- | ------- | ------ |----------------------------------- |
+| 1   | Getata  | GET    |http://localhost:3000/get           |
+| 2   | Show    | Get    |http://localhost:3000/get/1         | 
+| 3   | Delete  | Delete |http://localhost:3000/items/5       |
+| 4   | update  | post   |http://localhost:3000/itemsUpdate/1 |
+| 5   | insert  | post   |http://localhost:3000/input         |
 
 <!-- ![Logo](https://pbs.twimg.com/profile_images/876811570201755648/2DDnZDi7_400x400.jpg) -->
 ## how to use ?
@@ -36,12 +37,13 @@ I want to share how to run this code on your device from folder creation to fina
 
 ### Install express.js and packages 
 1. Press the shortcut **ctrl + shift + `** to open a new terminal vscode
-2. Run  **npm init -y** to node.js initialization
-3. Run **npm install express** to install express modules
-4. Run **npm install joi** to install Joi validation
-5. Run **npm install multer** to install the Multer middleware for handling file uploads.
-6. Run **npm install prisma --save-dev** to install global prisma
-7. Run **npx prisma init** to initialization
+2. Run **npm install -g nodemon** to run your project
+3. Run  **npm init -y** to node.js initialization
+4. Run **npm install express** to install express modules
+5. Run **npm install joi** to install Joi validation
+6. Run **npm install multer** to install the Multer middleware for handling file uploads.
+7. Run **npm install prisma --save-dev** to install global prisma
+8. Run **npx prisma init** to initialization
 
 ### Creating Database
 1. Turn on xampp, laragon or whatever you have
@@ -50,5 +52,15 @@ I want to share how to run this code on your device from folder creation to fina
 
 ### Postman
 1. Open Postman on your device. If you don’t have Postman installed, you can download it from here https://www.postman.com/downloads/.
-2. Create a folder to store all requests, click the plus icon then press blank collection   
+2. Create a folder to store all requests, click the plus icon then press **blank collection**  
     ![Create a folder](images/CreateCollection.png)
+3. create a new request you  can press this icon , click **add request**
+    ![add new request](images/addRequest.png)
+4. You can rename the collection or request a name by clicking on it.
+5. Enter **http://localhost:3000/input** and method POST for insert the data,  you can use form-data or raw
+    ![raw insert](images/raw.png)
+    ![form data insert](images/formdata.png)
+6. After you have finished setting the form or raw data, you can press the send button.
+7. if the data is successful, the results will appear.
+    ![result](images/result.png)
+8. Done, you can try to update, delete, show, get all data. You can see the url on the table and see the method
