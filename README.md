@@ -10,21 +10,21 @@ of cource use validation form express namely express validator.
 
 ## Method functions
 **Method pada fungsi:**
-    | No  | Fungsi  | method |
-    | --- | ------- | ------ |
-    | 1   | GetData | GET    |
-    | 2   | Show    | Get    |
-    | 3   | Delete  | Delete |
-    | 4   | update  | post   |
+| No  | Fungsi  | method |
+| --- | ------- | ------ |
+| 1   | GetData | GET    |
+| 2   | Show    | Get    |
+| 3   | Delete  | Delete |
+| 4   | update  | post   |
 
 <!-- ![Logo](https://pbs.twimg.com/profile_images/876811570201755648/2DDnZDi7_400x400.jpg) -->
 ## how to use ?
 I want to share how to run this code on your device from folder creation to final use, Divided into several parts, namely:
 
--folder creation and cloning
--install express package
--database creation in phpmyadmin
--and use in postman
+- Folder creation and cloning
+- Install express package
+- Database creation in phpMyAdmin
+- Use in Postman
 
 ###
 1. Open cmd or git bash on your divice
