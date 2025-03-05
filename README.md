@@ -51,4 +51,4 @@ I want to share how to run this code on your device from folder creation to fina
 ### Postman
 1. Open Postman on your device. If you don’t have Postman installed, you can download it from here https://www.postman.com/downloads/.
 2. Create a folder to store all requests, click the plus icon then press blank collection   
-    ![Create a folder](images/screenshot.png)
+    ![Create a folder](images/CreateCollection.png)
